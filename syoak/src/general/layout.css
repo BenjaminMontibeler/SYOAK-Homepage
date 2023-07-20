@@ -1,0 +1,22 @@
+.layout-side{
+    width:  var(--spacing-xl);
+    height: 100vh;
+    border-right: var(--light-border);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.layout-side-logo{
+    max-width: 100px;
+    width: 100%;
+    margin-top: var(--spacing-sml);
+}
+
+.layout-content{
+    display: flex;
+    margin-left: var(--spacing-xl);
+    padding-left: var(--spacing-m);
+    width: 100%;
+    margin-top: var(--spacing-sml);
+}

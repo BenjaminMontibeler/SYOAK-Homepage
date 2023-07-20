@@ -1,0 +1,21 @@
+.paragraph{
+
+}
+
+.title{
+    
+}
+
+.navbar{
+    color: var(--dark-grey);
+    font-size: var(--size-xmsl);
+    line-height: var(--size-sml);
+}
+
+.navbar-navigation{
+    font-weight: var(--weight-l);
+}
+
+.navbar-actions{
+    font-weight: var(--weight-m);
+}

@@ -1,0 +1,7 @@
+.button-outline{
+    border-radius: var(--radius-sm);
+    border: var(--button-border-outline);
+    background-color: var(--white);
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
