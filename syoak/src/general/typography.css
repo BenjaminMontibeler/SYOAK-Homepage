@@ -1,9 +1,22 @@
 .paragraph{
-
+    font-weight: var(--weight-s);
+    font-size: var(--size-sml);
+    line-height: var(--size-m);
+    color: var(--light-grey);
 }
 
 .title{
-    
+    font-weight: var(--weight-xl);
+    font-size: var(--size-l);
+    line-height: var(--size-xl);
+    color: var(--black);
+}
+
+.button-fill{
+    font-weight: var(--weight-m);
+    font-size: var(--size-xsml);
+    line-height: var(--size-sml);
+    color: var(--white);
 }
 
 .navbar{

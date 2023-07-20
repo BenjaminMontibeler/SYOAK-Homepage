@@ -3,6 +3,7 @@
 @import url('D:\git\SYOAK-Homepage\syoak\src\general\layout.css');
 @import url('D:\git\SYOAK-Homepage\syoak\src\general\typography.css');
 @import url('D:\git\SYOAK-Homepage\syoak\src\components\buttons.css');
+@import url('D:\git\SYOAK-Homepage\syoak\src\components\sections.css');
 
 .App{
     display: flex;

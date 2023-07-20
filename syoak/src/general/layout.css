@@ -15,8 +15,15 @@
 
 .layout-content{
     display: flex;
+    flex-direction: column;
     margin-left: var(--spacing-xl);
     padding-left: var(--spacing-m);
     width: 100%;
     margin-top: var(--spacing-sml);
+}
+
+.layout-content-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: var(--spacing-xl);
 }

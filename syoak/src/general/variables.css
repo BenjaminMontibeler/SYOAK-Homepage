@@ -10,19 +10,27 @@
     --white: #ffffff;
 
     /* spacing */
+    /* --spacing-xxl: 540px; */
     --spacing-xl: 210px;
+    --spacing-l: 176px;
     --spacing-m: 70px;
     --spacing-sml: 32px;
-    --gap: 44px;
-    --gap-sm: 8px;
+    --gap-l: 44px;
+    --gap-m: 24px;
+    --gap-sml: 8px;
 
     /* font and line size */
     --size-xmsl: 13px;
     --size-sml: 20px;
+    --size-m: 35px;
+    --size-l: 60px;
+    --size-xl: 76px;
 
     /* font weight */
-    --weight-m: 500;
+    --weight-xl: 900;
     --weight-l: 700;
+    --weight-m: 500;
+    --weight-s: 400;
 
     /* radius */
     --radius-sm: 5px;
