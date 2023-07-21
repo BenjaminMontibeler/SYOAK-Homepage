@@ -19,6 +19,13 @@
     color: var(--white);
 }
 
+.button-description{
+    font-weight: var(--weight-m);
+    font-size: var(--size-xmsl);
+    line-height: var(--size-sml);
+    color: var(--orange);
+}
+
 .navbar{
     color: var(--dark-grey);
     font-size: var(--size-xmsl);

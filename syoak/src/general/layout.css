@@ -1,5 +1,5 @@
 .layout-side{
-    width:  var(--spacing-xl);
+    width:  var(--spacing-xxl);
     height: 100vh;
     border-right: var(--light-border);
     position: fixed;
@@ -16,7 +16,7 @@
 .layout-content{
     display: flex;
     flex-direction: column;
-    margin-left: var(--spacing-xl);
+    margin-left: var(--spacing-xxl);
     padding-left: var(--spacing-m);
     width: 100%;
     margin-top: var(--spacing-sml);
@@ -25,5 +25,5 @@
 .layout-content-container{
     display: flex;
     flex-direction: column;
-    margin-right: var(--spacing-xl);
+    margin-right: var(--spacing-xxl);
 }
