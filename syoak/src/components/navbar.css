@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-.navbar img{
+.navbar .img{
     color: var(--blue);
     height: 19px;
     width: 19px;

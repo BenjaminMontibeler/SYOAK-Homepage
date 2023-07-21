@@ -19,14 +19,25 @@
     --spacing-sml: 32px;
     --gap-l: 44px;
     --gap-m: 24px;
+    --gap-msml: 16px;
     --gap-sml: 8px;
 
-    /* font and line size */
-    --size-xmsl: 13px;
+    /* font size */
+    --size-xxmsl: 13px;
+    --size-xsml: 16px;
     --size-sml: 20px;
     --size-m: 35px;
-    --size-l: 60px;
-    --size-xl: 76px;
+    --size-l: 48px;
+    --size-xl: 60px;
+
+    /* line height */
+    --line-height-xxsml: 16px;
+    --line-height-xsml: 20px;
+    --line-height-sml: 28px;
+    --line-height-m: 35px;
+    --line-height-l: 56px;
+    --line-height-xl: 76px;
+
 
     /* font weight */
     --weight-xl: 900;

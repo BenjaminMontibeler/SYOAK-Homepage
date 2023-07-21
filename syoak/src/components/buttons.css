@@ -64,3 +64,17 @@
     width: 100%;
     padding: 0;
 }
+
+.active-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 37px;
+}
+
+.active-button-container span{
+    margin-top: var(--spacing-m);
+    position: absolute;
+}

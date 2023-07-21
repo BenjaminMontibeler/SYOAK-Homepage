@@ -14,8 +14,8 @@ function Navbar() {
             </div>
 
             <div className='navbar-actions'>
-                <li><Login/><span>Log in</span></li>
-                <li><Contact/><span>Contact us</span></li>
+                <li><Login className='img' /><span>Log in</span></li>
+                <li><Contact className='img' /><span>Contact us</span></li>
                 <button className='button-outline'>Sign up</button>
             </div>
         </div>

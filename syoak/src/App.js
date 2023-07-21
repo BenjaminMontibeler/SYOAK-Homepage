@@ -4,6 +4,7 @@ import React from 'react';
 import {ReactComponent as Logo} from './components/images/Logo.svg';
 import Navbar from './components/Navbar';
 import SectionTitle from './components/SectionTitle';
+import SectionContent from './components/SectionContent';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <div className='layout-content-container'>
           <SectionTitle />
+          <SectionContent />
         </div>
       </div>
     </div>

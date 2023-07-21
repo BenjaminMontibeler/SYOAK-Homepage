@@ -1,35 +1,74 @@
 .paragraph{
     font-weight: var(--weight-s);
     font-size: var(--size-sml);
-    line-height: var(--size-m);
+    line-height: var(--line-height-sml);
+    color: var(--light-grey);
+}
+
+.title-paragraph{
+    font-weight: var(--weight-s);
+    font-size: var(--size-sml);
+    line-height: var(--line-height-m);
     color: var(--light-grey);
 }
 
 .title{
     font-weight: var(--weight-xl);
-    font-size: var(--size-l);
-    line-height: var(--size-xl);
+    font-size: var(--size-xl);
+    line-height: var(--line-height-xl);
     color: var(--black);
+}
+
+.header{
+    font-weight: var(--weight-xl);
+    font-size: var(--size-l);
+    line-height: var(--line-height-l);
+    color: var(--dark-blue);
+}
+
+.content-title{
+    font-weight: var(--weight-l);
+    font-size: var(--size-sml);
+    line-height: var(--line-height-sml);
+    color: var(--dark-blue);
+}
+
+.content-paragraph{
+    font-weight: var(--weight-s);
+    font-size: var(--size-xmsl);
+    line-height: var(--line-height-xsml);
+    color: var(--light-grey);
+}
+
+button{
+    font-family: 'Inter', sans-serif;
 }
 
 .button-fill{
     font-weight: var(--weight-m);
-    font-size: var(--size-xsml);
-    line-height: var(--size-sml);
+    font-size: var(--size-xxsml);
+    line-height: var(--line-height-xxsml);
     color: var(--white);
+}
+
+.button-outline{
+    font-weight: var(--weight-m);
+    font-size: var(--size-xxsml);
+    line-height: var(--line-height-xxsml);
+    color: var(--dark-grey);
 }
 
 .button-description{
     font-weight: var(--weight-m);
-    font-size: var(--size-xmsl);
-    line-height: var(--size-sml);
+    font-size: var(--size-xxmsl);
+    line-height: var(--line-height-xxsml);
     color: var(--orange);
 }
 
 .navbar{
+    font-size: var(--size-xxmsl);
+    line-height: var(--line-height-xsml);
     color: var(--dark-grey);
-    font-size: var(--size-xmsl);
-    line-height: var(--size-sml);
 }
 
 .navbar-navigation{
