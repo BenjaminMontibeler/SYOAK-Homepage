@@ -40,6 +40,7 @@
     height: 100%;
     width: 100%;
     padding: 0;
+    cursor: pointer;
 }
 
 .button-circle-outline{
@@ -63,6 +64,7 @@
     height: 100%;
     width: 100%;
     padding: 0;
+    cursor: pointer;
 }
 
 .active-button-container{
@@ -77,4 +79,46 @@
 .active-button-container span{
     margin-top: var(--spacing-m);
     position: absolute;
+}
+
+.button-circle-fill{
+    border-radius: var(--radius-cricle);
+    background-color: var(--orange);
+    opacity: 0.9;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+    border: 5px solid var(--orange-transparent);
+    background-clip: padding-box;
+    position: absolute;
+}
+
+.position-1{
+    margin-left: 80px;
+}
+
+.position-2{
+    margin-left: 265px;
+    margin-top: 150px;
+}
+
+.position-3{
+    margin-top: 60px;
+}
+
+.position-4{
+    margin-left: 240px;
+    margin-top: 70px;
+}
+
+.position-5{
+    margin-left: 270px;
+    margin-top: 60px;
+}
+
+.position-6{
+    margin-left: 142px;
+    margin-top: 245px;
 }

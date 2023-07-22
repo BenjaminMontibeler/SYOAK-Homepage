@@ -31,12 +31,16 @@ function SectionContent() {
 
                 <div className='image-container'>
                     <Illustration1 className='img' />
+                    <button className='button-circle-fill position-1' />
+                    <button className='button-circle-fill position-2' />
                 </div>
             </div>
 
             <div className='section-image'>
                 <div className='image-container'>
                     <Illustration2 className='img' />
+                    <button className='button-circle-fill position-3' />
+                    <button className='button-circle-fill position-4' />
                 </div>
 
                 <div className='text-container'>
@@ -56,13 +60,15 @@ function SectionContent() {
                         Syoak serves more than 2,500 petrol stations globally.
                     </h3>
                     <p className='content-paragraph'>
-                        We have a long and proud history givin emphasis to environment social and economic outcomes to deliver 
+                        We have a long and proud history givin emphasis to environment social and economic outcomes to deliver
                         places that respond.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                 </div>
 
                 <div className='image-container'>
                     <Illustration3 className='img' />
+                    <button className='button-circle-fill position-5' />
+                    <button className='button-circle-fill position-6' />
                 </div>
             </div>
         </div>

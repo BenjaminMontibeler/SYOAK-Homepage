@@ -8,6 +8,8 @@
     --blue: #0052B4;
     --dark-blue: #00367A;
     --orange: #FF7616;
+    --orange-transparent: rgba(255, 118, 22, 0.5);
+    --background-white: #FBFBFB;
     --white: #ffffff;
 
     /* spacing */

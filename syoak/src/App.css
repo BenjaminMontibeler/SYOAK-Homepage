@@ -8,4 +8,5 @@
 .App{
     display: flex;
     font-family: 'Inter', sans-serif;
+    background-color: var(--background-white);
 }
