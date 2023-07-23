@@ -3,6 +3,7 @@
     --black: #000000;
     --dark-grey: #303031;
     --light-grey: #6A6A6A;
+    --card-gray: #9DA8B6;
     --border-dot-grey: #CDCDCD;
     --border-light-gray: #E1E1E1;
     --blue: #0052B4;
@@ -18,6 +19,7 @@
     --spacing-xxl: 210px;
     --spacing-xl: 176px;
     --spacing-l: 144px;
+    --spacing-ml: 120px;
     --spacing-m: 70px;
     --spacing-sml: 32px;
     --gap-l: 44px;
@@ -29,6 +31,7 @@
     --size-xxmsl: 13px;
     --size-xsml: 16px;
     --size-sml: 20px;
+    --size-msml: 25px;
     --size-m: 35px;
     --size-l: 48px;
     --size-xl: 60px;

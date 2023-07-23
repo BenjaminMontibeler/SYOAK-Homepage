@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import SectionTitle from './components/SectionTitle';
 import SectionContent from './components/SectionContent';
 import SectionCarousel from './components/SectionCarousel';
+import SectionInformation from './components/SectionInformation';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <SectionContent />
         </div>
         <SectionCarousel />
+        <SectionInformation />
       </div>
     </div>
   );

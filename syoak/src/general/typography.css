@@ -78,3 +78,17 @@ button{
 .navbar-actions{
     font-weight: var(--weight-m);
 }
+
+.card-title{
+    font-weight: var(--weight-xl);
+    font-size: var(--size-msml);
+    line-height: var(--line-height-sml);
+    color: var(--dark-blue);
+}
+
+.card-paragraph{
+    font-weight: var(--weight-s);
+    font-size: var(--size-xsml);
+    line-height: var(--line-height-sml);
+    color: var(--card-gray);
+}
