@@ -5,6 +5,7 @@ import {ReactComponent as Logo} from './components/images/Logo.svg';
 import Navbar from './components/Navbar';
 import SectionTitle from './components/SectionTitle';
 import SectionContent from './components/SectionContent';
+import SectionCarousel from './components/SectionCarousel';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <SectionTitle />
           <SectionContent />
         </div>
+        <SectionCarousel />
       </div>
     </div>
   );
