@@ -1,5 +1,5 @@
 import React from 'react';
-import './sectionContent.css'
+import './buttonPositions.css'
 import { ReactComponent as Illustration1 } from './images/illustration1.svg';
 import { ReactComponent as Illustration2 } from './images/illustration2.svg';
 import { ReactComponent as Illustration3 } from './images/illustration3.svg';

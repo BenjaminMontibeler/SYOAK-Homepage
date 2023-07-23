@@ -7,6 +7,7 @@ import SectionTitle from './components/SectionTitle';
 import SectionContent from './components/SectionContent';
 import SectionCarousel from './components/SectionCarousel';
 import SectionInformation from './components/SectionInformation';
+import SectionContact from './components/SectionContact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </div>
         <SectionCarousel />
         <SectionInformation />
+        <SectionContact />
       </div>
     </div>
   );

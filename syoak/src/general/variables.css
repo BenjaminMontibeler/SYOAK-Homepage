@@ -61,6 +61,8 @@
     --button-container-border-active: 1px solid var(--orange);
     --button-container-border: 1px solid var(--blue);
     --border-dot: 1px dashed var(--border-dot-grey);
+    --border-input: 1px solid var(--card-gray);
+    --border-input-focus: 1px solid var(--blue:);
 }
 
 

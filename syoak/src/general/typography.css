@@ -92,3 +92,10 @@ button{
     line-height: var(--line-height-sml);
     color: var(--card-gray);
 }
+
+.input-label{
+    font-weight: var(--weight-m);
+    font-size: var(--size-xxmsl);
+    line-height: var(--line-height-xxsml);
+    color: var(--blue);
+}
