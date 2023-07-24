@@ -126,6 +126,7 @@ hr {
 .section-information{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: var(--spacing-l);
     padding-left: var(--spacing-m);
     padding-right: var(--spacing-l);
@@ -177,8 +178,8 @@ hr {
 .section-contact{
     display: flex;
     flex-direction: column;
-    margin-top: var(--spacing-xxl);
-    padding: var(--spacing-l);
+    margin-top: var(--spacing-l);
+    padding-bottom: var(--spacing-l);
     padding-left: var(--spacing-m);
     padding-right: var(--spacing-m);
     border-bottom: var(--light-border);

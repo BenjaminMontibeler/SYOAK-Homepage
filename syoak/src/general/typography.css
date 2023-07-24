@@ -99,3 +99,31 @@ button{
     line-height: var(--line-height-xxsml);
     color: var(--blue);
 }
+
+.content-text{
+    font-weight: var(--weight-s);
+    font-size: var(--size-xxmsl);
+    line-height: var(--line-height-xsml);
+    color: var(--purple);
+}
+
+.link{
+    font-weight: var(--weight-s);
+    font-size: var(--size-xxmsl);
+    line-height: var(--line-height-xsml);
+    color: var(--blue);
+}
+
+.table-heading{
+    font-weight: var(--weight-l);
+    font-size: var(--size-xsml);
+    line-height: var(--line-height-xsml);
+    color: var(--purple);
+}
+
+.copyright{
+    font-weight: var(--weight-s);
+    font-size: var(--size-xxmsl);
+    line-height: var(--line-height-xsml);
+    color: var(--card-gray);
+}

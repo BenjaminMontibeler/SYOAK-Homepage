@@ -8,6 +8,7 @@ import SectionContent from './components/SectionContent';
 import SectionCarousel from './components/SectionCarousel';
 import SectionInformation from './components/SectionInformation';
 import SectionContact from './components/SectionContact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <SectionCarousel />
         <SectionInformation />
         <SectionContact />
+        <Footer />
       </div>
     </div>
   );

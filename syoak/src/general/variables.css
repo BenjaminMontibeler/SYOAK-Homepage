@@ -8,6 +8,7 @@
     --border-light-gray: #E1E1E1;
     --blue: #0052B4;
     --dark-blue: #00367A;
+    --purple: #35384D;
     --orange: #FF7616;
     --orange-transparent: rgba(255, 118, 22, 0.5);
     --background-white: #FBFBFB;
@@ -22,6 +23,8 @@
     --spacing-ml: 120px;
     --spacing-m: 70px;
     --spacing-sml: 32px;
+    --spacing-xsml: 20px;
+    --gap-xl: 64px;
     --gap-l: 44px;
     --gap-m: 24px;
     --gap-msml: 16px;
