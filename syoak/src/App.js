@@ -9,6 +9,7 @@ import SectionCarousel from './components/SectionCarousel';
 import SectionInformation from './components/SectionInformation';
 import SectionContact from './components/SectionContact';
 import Footer from './components/Footer';
+import 'focus-visible';
 
 function App() {
   return (
