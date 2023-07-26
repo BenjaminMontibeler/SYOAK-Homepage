@@ -50,9 +50,9 @@ function Footer() {
             <div className='copyright'>
                 <span>Copyright (c) 2019 syoak.com All rights reserved.</span>
                 <div className='copyright-wrapper'>
-                    <span>Support</span>
-                    <span>Privacy Policy</span>
-                    <span>Terms of Condition</span>
+                    <span><a>Support</a></span>
+                    <span><a>Privacy Policy</a></span>
+                    <span><a>Terms of Condition</a></span>
                 </div>
             </div>
         </div>

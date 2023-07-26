@@ -90,8 +90,10 @@
     background-color: var(--orange);
     opacity: 0.9;
     border: none;
-    height: 30px;
-    width: 30px;
+    max-height: 30px;
+    max-width: 30px;
+    height: 100%;
+    width: 100%;
     padding: 0;
     cursor: pointer;
     border: 5px solid var(--orange-transparent);
@@ -122,5 +124,12 @@
     background-color: transparent;
     display: flex;
     padding-top: 4px;
+    cursor: pointer;
+}
+
+.scroll-button{
+    border: none;
+    background-color: transparent;
+    margin-top: 500px;
     cursor: pointer;
 }

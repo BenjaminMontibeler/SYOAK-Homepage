@@ -1,10 +1,11 @@
 .layout-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width:  var(--spacing-xxl);
     height: 100vh;
     border-right: var(--light-border);
     position: fixed;
-    display: flex;
-    justify-content: center;
 }
 
 .layout-side-logo{

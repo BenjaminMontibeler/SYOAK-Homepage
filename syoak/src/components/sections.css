@@ -101,6 +101,12 @@ hr {
     .button-circle-fill{
         display: none;
     }
+
+    .section-content .image-description-active{
+        display: none;
+    }
+
+
 }
 
 .section-image .text-container {
