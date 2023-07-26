@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './buttonPositions.css'
 import { ReactComponent as Illustration1 } from './images/illustration1.svg';
 import { ReactComponent as Illustration2 } from './images/illustration2.svg';
 import { ReactComponent as Illustration3 } from './images/illustration3.svg';
+import { ReactComponent as Exit } from './images/exit.svg';
 
 function SectionContent() {
+    const [description, setDescription] = useState(false);
+
+    const toggleDescription = () => {
+        setDescription(!description);
+    };
     return (
         <div className='section-content'>
             <div className='section-header'>
@@ -32,16 +38,24 @@ function SectionContent() {
 
                 <div className='image-container'>
                     <Illustration1 className='img' />
-                    <button className='button-circle-fill position-1' />
-                    <button className='button-circle-fill position-2' />
+                    <button className='button-circle-fill position-1' onClick={toggleDescription} />
+                    <button className='button-circle-fill position-2' onClick={toggleDescription}/>
+                    <div className={`content-paragraph ${description ? 'image-description-active' : 'image-description-inactive'}`}>
+                        <button className='exit-button'><Exit/></button>
+                        <p>Syoak is uniquely positioned to deliver actionable intelligence to analyze and reduce risk</p>
+                    </div>
                 </div>
             </div>
 
             <div className='section-image'>
                 <div className='image-container'>
                     <Illustration2 className='img' />
-                    <button className='button-circle-fill position-3' />
-                    <button className='button-circle-fill position-4' />
+                    <button className='button-circle-fill position-3' onClick={toggleDescription}/>
+                    <button className='button-circle-fill position-4' onClick={toggleDescription}/>
+                    <div className={`content-paragraph ${description ? 'image-description-active' : 'image-description-inactive'}`}>
+                        <button className='exit-button'><Exit/></button>
+                        <p>Syoak is uniquely positioned to deliver actionable intelligence to analyze and reduce risk</p>
+                    </div>
                 </div>
 
                 <div className='text-container'>
@@ -68,8 +82,12 @@ function SectionContent() {
 
                 <div className='image-container'>
                     <Illustration3 className='img' />
-                    <button className='button-circle-fill position-5' />
-                    <button className='button-circle-fill position-6' />
+                    <button className='button-circle-fill position-5' onClick={toggleDescription}/>
+                    <button className='button-circle-fill position-6' onClick={toggleDescription}/>
+                    <div className={`content-paragraph ${description ? 'image-description-active' : 'image-description-inactive'}`}>
+                        <button className='exit-button'><Exit/></button>
+                        <p>Syoak is uniquely positioned to deliver actionable intelligence to analyze and reduce risk</p>
+                    </div>
                 </div>
             </div>
         </div>

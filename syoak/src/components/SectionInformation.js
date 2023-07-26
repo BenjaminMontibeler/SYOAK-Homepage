@@ -20,26 +20,34 @@ function SectionInformation() {
 
                 <div className='card'>
                     <Icon1 className='icon' />
-                    <h3 className='card-title'>2562</h3>
-                    <p className='card-paragraph'>Square Meters Built</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>2562</h3>
+                        <p className='card-paragraph'>Square Meters Built</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <Icon2 className='icon' />
-                    <h3 className='card-title'>184</h3>
-                    <p className='card-paragraph'>Completed Projects</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>184</h3>
+                        <p className='card-paragraph'>Completed Projects</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <Icon3 className='icon' />
-                    <h3 className='card-title'>351</h3>
-                    <p className='card-paragraph'>Work With Us</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>351</h3>
+                        <p className='card-paragraph'>Work With Us</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <Icon4 className='icon' />
-                    <h3 className='card-title'>65</h3>
-                    <p className='card-paragraph'>Ideas Realized</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>65</h3>
+                        <p className='card-paragraph'>Ideas Realized</p>
+                    </div>
                 </div>
 
             </div>

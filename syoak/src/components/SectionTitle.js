@@ -33,91 +33,40 @@ function SectionTitle() {
 
             <div className='timeline-container'>
 
-                {button1 ? (
-                    <div className='active-button-container'>
-                        <div className='button-circle-outline-active'>
-                            <button className='button-circle-active' onClick={toggleButtonAppearance1} />
-                        </div>
-                        <span className='button-description'>Extraction</span>
+                <div className='active-button-container'>
+                    <div className={`${button1 ? 'button-circle-outline-active' : 'button-circle-outline'}`}>
+                        <button className={`${button1 ? 'button-circle-active' : 'button-circle'}`} onClick={toggleButtonAppearance1} />
                     </div>
-                ) : (
-                    <div className='button-circle-outline'>
-                        <button className='button-circle' onClick={toggleButtonAppearance1} />
-                    </div>
-                )}
-
-                <hr />
-
-                {button2 ? (
-                    <div className='active-button-container'>
-                        <div className='button-circle-outline-active'>
-                            <button className='button-circle-active' onClick={toggleButtonAppearance2} />
-                        </div>
-                        <span className='button-description'>Transport</span>
-                    </div>
-                ) : (
-                    <div className='button-circle-outline'>
-                        <button className='button-circle' onClick={toggleButtonAppearance2} />
-                    </div>
-                )}
-
-                <hr />
-
-                {button3 ? (
-                    <div className='active-button-container'>
-                        <div className='button-circle-outline-active'>
-                            <button className='button-circle-active' onClick={toggleButtonAppearance3} />
-                        </div>
-                        <span className='button-description'>Refining</span>
-                    </div>
-                ) : (
-                    <div className='button-circle-outline'>
-                        <button className='button-circle' onClick={toggleButtonAppearance3} />
-                    </div>
-                )}
-
-                <hr />
-
-                {button4 ? (
-                    <div className='active-button-container'>
-                        <div className='button-circle-outline-active'>
-                            <button className='button-circle-active' onClick={toggleButtonAppearance4} />
-                        </div>
-                        <span className='button-description'>Export</span>
-                    </div>
-                ) : (
-                    <div className='button-circle-outline'>
-                        <button className='button-circle' onClick={toggleButtonAppearance4} />
-                    </div>
-                )}
-
-
-
-
-                {/* <div className='active-button-container'>
-                    <div className='button-circle-outline-active'>
-                        <button className='button-circle-active' />
-                    </div>
-                    <span className='button-description'>Extraction</span>
+                    <span className={`button-description ${button1 ? '' : 'button-description-inactive'}`}>Extraction</span>
                 </div>
 
-                <hr />
+                <hr/>
 
-                <div className='button-circle-outline'>
-                    <button className='button-circle' />
+                <div className='active-button-container'>
+                    <div className={`${button2 ? 'button-circle-outline-active' : 'button-circle-outline'}`}>
+                        <button className={`${button2 ? 'button-circle-active' : 'button-circle'}`} onClick={toggleButtonAppearance2} />
+                    </div>
+                    <span className={`button-description ${button2 ? '' : 'button-description-inactive'}`}>Transport</span>
                 </div>
 
-                <hr />
+                <hr/>
 
-                <div className='button-circle-outline'>
-                    <button className='button-circle' />
+                <div className='active-button-container'>
+                    <div className={`${button3 ? 'button-circle-outline-active' : 'button-circle-outline'}`}>
+                        <button className={`${button3 ? 'button-circle-active' : 'button-circle'}`} onClick={toggleButtonAppearance3} />
+                    </div>
+                    <span className={`button-description ${button3 ? '' : 'button-description-inactive'}`}>Refining</span>
                 </div>
 
-                <hr />
+                <hr/>
 
-                <div className='button-circle-outline'>
-                    <button className='button-circle' />
-                </div> */}
+                <div className='active-button-container'>
+                    <div className={`${button4 ? 'button-circle-outline-active' : 'button-circle-outline'}`}>
+                        <button className={`${button4 ? 'button-circle-active' : 'button-circle'}`} onClick={toggleButtonAppearance4} />
+                    </div>
+                    <span className={`button-description ${button4 ? '' : 'button-description-inactive'}`}>Export</span>
+                </div>
+
             </div>
         </div>
     )

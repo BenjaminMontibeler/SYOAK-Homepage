@@ -3,8 +3,6 @@
     margin-right: var(--spacing-m);
     padding-left: var(--spacing-m);
     overflow: hidden;
-    /* position: fixed; */
-    transition: height 0.5s ease-in-out;
 }
 
 .navbar-content{
@@ -72,7 +70,6 @@
     .navbar{
         flex-direction: column;
         height: 33px;
-        /* transition: height 0.5s ease-in-out; */
     }
 
     .navbar-content {
@@ -80,7 +77,6 @@
         align-items: flex-start;
         height: auto;
         transform: translateY(-700px);
-        transition: transform 0.5s ease-in-out;
     }
 
     .navbar-toggle {
