@@ -4,6 +4,7 @@
     padding-left: var(--spacing-m);
     overflow: hidden;
     /* position: fixed; */
+    transition: height 0.5s ease-in-out;
 }
 
 .navbar-content{
@@ -39,10 +40,11 @@
     display: flex;
 }
 
-/* Hamburger Menu styles */
 .navbar-toggle {
     display: none;
     cursor: pointer;
+    background-color: var(--background-white);
+    z-index: 2;
 }
 
 .bar {
@@ -67,9 +69,18 @@
 
 @media screen and (max-width: 1100px) {
 
-    .navbar-navigation,
-    .navbar-actions {
-        display: none;
+    .navbar{
+        flex-direction: column;
+        height: 33px;
+        /* transition: height 0.5s ease-in-out; */
+    }
+
+    .navbar-content {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        transform: translateY(-700px);
+        transition: transform 0.5s ease-in-out;
     }
 
     .navbar-toggle {
@@ -77,15 +88,15 @@
     }
 
     .active {
-        /* display: flex; */
-        flex-direction: column;
+        height: auto;
+        transition: transform 0.5s ease-in-out;
     }
 
     .active .navbar-content{
         flex-direction: column;
         align-items: flex-start;
         height: auto;
-        transform: translateY(20px);
+        transform: translateY(0);
         transition: transform 0.5s ease-in-out;
     }
 
@@ -93,14 +104,14 @@
         margin: 0;
     }
 
-    .active .navbar-navigation {
+    .navbar-navigation {
         display: flex;
         flex-direction: column;
         padding-top: var(--spacing-sml);
         padding-bottom: var(--spacing-m);
     }
 
-    .active .navbar-actions {
+    .navbar-actions {
         display: flex;
         flex-direction: column;
         padding-bottom: var(--spacing-m);
