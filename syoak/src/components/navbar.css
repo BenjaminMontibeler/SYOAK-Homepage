@@ -29,13 +29,13 @@
 }
 
 .navbar-navigation {
-    gap: var(--gap-l);
     display: flex;
+    gap: var(--gap-l);
 }
 
 .navbar-actions {
-    gap: var(--gap-l);
     display: flex;
+    gap: var(--gap-l);
 }
 
 .navbar-toggle {

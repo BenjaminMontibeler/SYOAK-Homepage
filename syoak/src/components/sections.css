@@ -188,7 +188,7 @@ hr {
     margin-bottom: var(--gap-l);
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1150px){
     .section-carousel-item-content{
         flex-direction: column;
         padding-bottom: var(--spacing-m);
@@ -201,6 +201,12 @@ hr {
 
     .section-carousel{
         height: auto;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .section-carousel .carousel-img{
+        display: none;
     }
 }
 

@@ -38,7 +38,6 @@ function SectionContact() {
 
         <div className='map-container'>
             <Map className='map'/>
-            <button className='button-circle-fill position-7' />
         </div>
         
       </div>

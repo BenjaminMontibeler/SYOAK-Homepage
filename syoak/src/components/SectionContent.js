@@ -9,7 +9,6 @@ function SectionContent() {
     const [description1, setDescription1] = useState(false);
     const [description2, setDescription2] = useState(false);
     const [description3, setDescription3] = useState(false);
-    const [description4, setDescription4] = useState(false);
 
     const toggleDescription1 = () => {
         setDescription1(!description1);
