@@ -1,0 +1,118 @@
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing-l);
+    padding-bottom: var(--spacing-l);
+    padding-left: var(--spacing-m);
+    padding-right: var(--spacing-m);
+    border-bottom: var(--light-border);
+}
+
+.section-contact h2{
+    max-width: 400px;
+    width: 100%;
+}
+
+.section-contact .section-contact__form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-contact form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    max-width: 430px;
+    width: 100%;
+}
+
+.section-contact input{
+    border: none;
+    border-bottom: var(--border-input);
+    background-color: transparent;
+    height: 36px;
+}
+
+.section-contact input:focus-visible{
+    outline: none !important;
+}
+
+.section-contact textarea{
+    border: none;
+    background-color: transparent;
+    height: 150px;
+}
+
+.section-contact textarea:focus{
+    outline: none;
+}
+
+.section-contact .section-contact__image{
+    max-width: 542px;
+    max-height: 466px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1290px){
+    .section-contact .section-contact__form-container{
+        gap: var(--gap-msml);
+    }
+}
+
+@media screen and (max-width: 1275px){
+    .section-contact .section-contact__form-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 725px){
+    .section-contact .section-contact__image{
+        display: none;
+    }
+
+    .section-contact{
+        margin-top: var(--spacing-m);
+        padding-bottom: var(--spacing-m);
+        padding-left: var(--spacing-sml);
+        padding-right: var(--spacing-sml);
+    }
+
+    .input-group__label{
+        font-size: var(--size-xxsml);
+        line-height: var(--line-height-xxsml);
+    }
+
+    .checkbox label{
+        font-size: var(--size-xxsml);
+    }
+}
+
+.section-contact .input-group{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sml);
+    margin-bottom: var(--spacing-xsml);
+}
+
+.section-contact .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-sml);
+}
+
+.section-contact .section-contact__image-container{
+    display: flex;
+    width: auto;
+}
+
+.input-group__label{
+    font-weight: var(--weight-m);
+    font-size: var(--size-xxsml);
+    line-height: var(--line-height-xxsml);
+    color: var(--blue);
+}

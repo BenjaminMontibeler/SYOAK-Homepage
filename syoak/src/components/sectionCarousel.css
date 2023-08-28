@@ -1,0 +1,86 @@
+.section-carousel{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    overflow: hidden;
+    height: 900px;
+    width: auto;
+}
+
+.section-carousel .section-carousel__container{
+    display: flex;
+    transition: transform 0.3s;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.section-carousel .section-carousel__card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    height: 100%;
+}
+
+.section-carousel .section-carousel__button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: var(--spacing-sml);
+    padding-top: var(--spacing-l);
+}
+
+.section-carousel__card__figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--spacing-m);
+    padding-right: var(--spacing-xxl);
+    padding-top: var(--spacing-ml);
+}
+
+.section-carousel__card__body{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-msml);
+    max-width: 338px;
+    width: 100%;
+}
+
+.section-carousel .section-carousel__card__image {
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+}
+
+.section-carousel__card__body h2 {
+    margin-bottom: var(--gap-l);
+}
+
+@media screen and (max-width: 1150px){
+    .section-carousel__card__figure{
+        flex-direction: column;
+        padding-bottom: var(--spacing-m);
+        gap: var(--gap-m);
+    }
+
+    .section-carousel .section-carousel__button-container{
+        padding-top: var(--spacing-m);
+    }
+
+    .section-carousel{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .section-carousel .section-carousel__card__image{
+        display: none;
+    }
+
+    .section-carousel__card__figure{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

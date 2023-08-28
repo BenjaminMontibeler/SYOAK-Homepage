@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import { ReactComponent as Login } from './images/Login.svg';
 import { ReactComponent as Contact } from './images/Contact.svg';
+import '../general/typography.css';
 
 function Navbar() {
     const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
@@ -29,31 +30,31 @@ function Navbar() {
     }, [isHamburgerOpen]);
 
     return (
-        <div className={`navbar ${isHamburgerOpen ? 'active' : ''}`}>
-            <div className='navbar-toggle' onClick={toggleHamburger}>
+        <div className={`main-nav ${isHamburgerOpen ? 'active' : ''}`}>
+            <div className='main-nav__toggle' onClick={toggleHamburger}>
                 <div className='bar'></div>
                 <div className='bar'></div>
                 <div className='bar'></div>
             </div>
 
-            <div className='navbar-content'>
-                <div className='navbar-navigation'>
+            <div className='main-nav__content'>
+                <div className='main-nav__list'>
                     <li>Services</li>
                     <li>Projects</li>
                     <li>About us</li>
                     <li>Blog</li>
                 </div>
 
-                <div className='navbar-actions'>
+                <div className='main-nav__actions'>
                     <li>
-                        <Login className='img' />
+                        <Login className='main-nav__img' />
                         <span>Log in</span>
                     </li>
                     <li>
-                        <Contact className='img' />
+                        <Contact className='main-nav__img' />
                         <span>Contact us</span>
                     </li>
-                    <button className='button-outline'>
+                    <button className='button-font button-outline'>
                         Sign up
                     </button>
                 </div>

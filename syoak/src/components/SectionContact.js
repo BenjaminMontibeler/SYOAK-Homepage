@@ -1,33 +1,35 @@
 import React from 'react';
 import { ReactComponent as Map } from './images/map.svg';
-import './buttonPositions.css'
+import './buttonPositions.css';
+import './sectionContact.css';
+import '../general/typography.css';
 
 function SectionContact() {
   return (
     <div className='section-contact'>
-      <h2 className='header'>Get in Touch With Us</h2>
-      <div className='form-container'>
+      <h2>Get in Touch With Us</h2>
+      <div className='section-contact__form-container'>
         <form>
-            <div className='input-container'>
-                <label for='name' className='input-label'>Name</label>
+            <div className='input-group'>
+                <label for='name' className='input-group__label'>Name</label>
                 <input type='text' id='name'></input>
             </div>
             
-            <div className='input-container'>
-                <label for='email' className='input-label'>Email Adress</label>
+            <div className='input-group'>
+                <label for='email' className='input-group__label'>Email Adress</label>
                 <input type='email' id='email'></input>
             </div>
             
-            <div className='input-container'>
-                <label for='message' className='input-label'>Message</label>
+            <div className='input-group'>
+                <label for='message' className='input-group__label'>Message</label>
                 <textarea id='message' placeholder='Write message here...'></textarea>
             </div>
             
             <div>
-                <label for='robot' className='input-label'>Verification</label>
-                <div className='checkbox-container'> 
-                    <input type="checkbox" name="robot" placeholder=''></input>
-                    <label for='robot'>I am not a robot</label>
+                <label for='robot' className='input-group__label'>Verification</label>
+                <div className='checkbox'> 
+                    <input type="checkbox" name="checkbox" placeholder=''></input>
+                    <label for='checkbox'>I am not a robot</label>
                 </div>
             </div>
 
@@ -36,8 +38,8 @@ function SectionContact() {
         </form>
 
 
-        <div className='map-container'>
-            <Map className='map'/>
+        <div className='section-contact__image-container'>
+            <Map className='section-contact__image'/>
         </div>
         
       </div>

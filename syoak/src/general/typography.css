@@ -1,129 +1,91 @@
-.paragraph{
-    font-weight: var(--weight-s);
-    font-size: var(--size-sml);
-    line-height: var(--line-height-sml);
-    color: var(--light-grey);
-}
-
-.title-paragraph{
-    font-weight: var(--weight-s);
-    font-size: var(--size-sml);
-    line-height: var(--line-height-m);
-    color: var(--light-grey);
-}
-
-.title{
+h1{
     font-weight: var(--weight-xl);
     font-size: var(--size-xl);
     line-height: var(--line-height-xl);
     color: var(--black);
 }
 
-.header{
+h2 {
     font-weight: var(--weight-xl);
     font-size: var(--size-l);
     line-height: var(--line-height-l);
     color: var(--dark-blue);
 }
 
-.content-title{
+h3 {
     font-weight: var(--weight-l);
     font-size: var(--size-sml);
     line-height: var(--line-height-sml);
     color: var(--dark-blue);
 }
 
-.content-paragraph{
+p{
     font-weight: var(--weight-s);
-    font-size: var(--size-xmsl);
+    font-size: var(--size-xsml);
     line-height: var(--line-height-xsml);
     color: var(--light-grey);
 }
 
-button{
-    font-family: 'Inter', sans-serif;
+@media screen and (max-width: 980px){
+    h1{
+        font-size: var(--size-l);
+        line-height: var(--line-height-l);
+    }
+
+    h2{
+        font-size: var(--size-m);
+        line-height: var(--line-height-m);
+    }
+
+    h3{
+        font-size: var(--size-xsml);
+        line-height: var(--line-height-xsml);
+    }
+
+    p{
+        font-size: var(--size-xxsml);
+        line-height: var(--line-height-xxsml);
+    }
 }
 
-.button-fill{
-    font-weight: var(--weight-m);
-    font-size: var(--size-xxsml);
-    line-height: var(--line-height-xxsml);
-    color: var(--white);
+@media screen and (max-width: 825px){
+    h1{
+        font-size: var(--size-m);
+        line-height: var(--line-height-m);
+    }
+
+    h2{
+        font-size: var(--size-sml);
+        line-height: var(--line-height-sml);
+    }
+
+    h3{
+        font-size: var(--size-xxsml);
+        line-height: var(--line-height-xxsml);
+    }
+
 }
 
-.button-outline{
-    font-weight: var(--weight-m);
-    font-size: var(--size-xxsml);
-    line-height: var(--line-height-xxsml);
-    color: var(--dark-grey);
+@media screen and (max-width: 600px){
+    h1{
+        font-size: var(--size-m);
+        line-height: var(--line-height-sml);
+    }
+
+    h2{
+        font-size: var(--size-sml);
+        line-height: var(--line-height-xsml);
+    }
+
+    h3{
+        font-size: var(--size-xxsml);
+        line-height: var(--line-height-xxsml);
+    }
 }
 
-.button-description{
-    font-weight: var(--weight-m);
-    font-size: var(--size-xxmsl);
-    line-height: var(--line-height-xxsml);
-    color: var(--orange);
-}
-
-.navbar{
-    font-size: var(--size-xxmsl);
-    line-height: var(--line-height-xsml);
-    color: var(--dark-grey);
-}
-
-.navbar-navigation{
-    font-weight: var(--weight-l);
-}
-
-.navbar-actions{
-    font-weight: var(--weight-m);
-}
-
-.card-title{
-    font-weight: var(--weight-xl);
-    font-size: var(--size-msml);
-    line-height: var(--line-height-sml);
-    color: var(--dark-blue);
-}
-
-.card-paragraph{
-    font-weight: var(--weight-s);
-    font-size: var(--size-xsml);
-    line-height: var(--line-height-sml);
-    color: var(--card-gray);
-}
-
-.input-label{
-    font-weight: var(--weight-m);
-    font-size: var(--size-xxmsl);
-    line-height: var(--line-height-xxsml);
-    color: var(--blue);
-}
-
-.content-text{
-    font-weight: var(--weight-s);
-    font-size: var(--size-xxmsl);
-    line-height: var(--line-height-xsml);
-    color: var(--purple);
-}
-
-.link{
-    font-weight: var(--weight-s);
-    font-size: var(--size-xxmsl);
-    line-height: var(--line-height-xsml);
-    color: var(--blue);
-}
-
-.table-heading{
-    font-weight: var(--weight-l);
-    font-size: var(--size-xsml);
-    line-height: var(--line-height-xsml);
-    color: var(--purple);
-}
-
-.copyright{
-    font-weight: var(--weight-s);
-    font-size: var(--size-xxmsl);
-    line-height: var(--line-height-xsml);
-    color: var(--card-gray);
+@media screen and (max-width: 400px){
+    h1{
+        font-size: var(--size-msml);
+        line-height: var(--line-height-sml);
+    }
 }

@@ -23,14 +23,14 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='layout-side'>
-        <Logo className='layout-side-logo' />
-        <button className='scroll-button' onClick={scrollButton}><ScrollArrow/></button>
+      <div className='sidebar'>
+        <Logo className='sidebar__logo' />
+        <button className='sidebar__button' onClick={scrollButton}><ScrollArrow/></button>
       </div>
 
-      <div className='layout-content'>
+      <div className='content'>
         <Navbar />
-        <div className='layout-content-container'>
+        <div className='content__container'>
           <SectionTitle />
           <SectionContent />
         </div>

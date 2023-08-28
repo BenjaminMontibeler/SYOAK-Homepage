@@ -5,6 +5,8 @@ import { ReactComponent as Illustration6 } from './images/illustration6.svg';
 import { ReactComponent as Illustration7 } from './images/illustration7.svg';
 import { ReactComponent as ArrowLeft } from './images/Arrow-Left.svg';
 import { ReactComponent as ArrowRight } from './images/Arrow-Right.svg';
+import './sectionCarousel.css'
+import '../general/typography.css';
 
 function SectionCarousel() {
   const items = [
@@ -57,19 +59,19 @@ function SectionCarousel() {
     <div className='section-carousel'>
 
 
-      <div className='carousel-container' style={{ transform: `translate(-${activeIndex * 100}%)` }}>
+      <div className='section-carousel__container' style={{ transform: `translate(-${activeIndex * 100}%)` }}>
         {items.map((item) => {
-          return <div className='carousel-item'>
+          return <div className='section-carousel__card'>
 
-            <div className='carousel-button-container'>
+            <div className='section-carousel__button-container'>
               <button className='arrow-button' onClick={() => {
                 updateIndex(activeIndex - 1)
               }}><ArrowLeft /></button>
               <div className='active-button-container'>
-                <div className='button-circle-outline-active'>
-                  <button className='button-circle-active cursor-default' />
+                <div className='button-round-outline button-circle-outline-active'>
+                  <button className='button-round button-circle-active cursor-default' />
                 </div>
-                <span className='button-description'>{item.buttontag}</span>
+                <span className='button-font button-description'>{item.buttontag}</span>
               </div>
               <button className='arrow-button' onClick={() => {
                 updateIndex(activeIndex + 1)
@@ -79,17 +81,17 @@ function SectionCarousel() {
 
             </div>
 
-            <div className='section-carousel-item-content'>
+            <div className='section-carousel__card__figure'>
 
-              <div className='section-carousel-item-paragraph'>
+              <div className='section-carousel__card__body'>
 
-                <h2 className='header'>{item.title}</h2>
-                <h3 className='content-title'>{item.header}</h3>
-                <p className='content-paragraph'>{item.description}</p>
+                <h2>{item.title}</h2>
+                <h3>{item.header}</h3>
+                <p>{item.description}</p>
 
               </div>
 
-              <item.image className='carousel-img' />
+              <item.image className='section-carousel__card__image' />
 
             </div>
 

@@ -1,4 +1,7 @@
 :root{
+    /* typeface */
+    --inter: 'Inter', sans-serif;
+    
     /* colors */
     --black: #000000;
     --dark-grey: #303031;
@@ -30,7 +33,8 @@
     --gap-sml: 8px;
 
     /* font size */
-    --size-xxmsl: 13px;
+    --size-xxxsml: 10px;
+    --size-xxsml: 13px;
     --size-xsml: 16px;
     --size-sml: 20px;
     --size-msml: 25px;

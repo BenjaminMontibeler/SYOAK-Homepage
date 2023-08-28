@@ -1,11 +1,14 @@
-.navbar {
+.main-nav {
     display: flex;
     margin-right: var(--spacing-m);
     padding-left: var(--spacing-m);
     overflow: hidden;
+    font-size: var(--size-xxsml);
+    line-height: var(--line-height-xsml);
+    color: var(--dark-grey);
 }
 
-.navbar-content{
+.main-nav__content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,37 +18,39 @@
     width: 100%;
 }
 
-.navbar li {
+.main-nav li {
     display: flex;
     margin: auto;
     gap: var(--gap-sml);
     cursor: pointer;
 }
 
-.navbar .img {
+.main-nav__img {
     color: var(--blue);
     height: 19px;
     width: 19px;
 }
 
-.navbar-navigation {
+.main-nav__list {
     display: flex;
     gap: var(--gap-l);
+    font-weight: var(--weight-l);
 }
 
-.navbar-actions {
+.main-nav__actions {
     display: flex;
     gap: var(--gap-l);
+    font-weight: var(--weight-m);
 }
 
-.navbar-toggle {
+.main-nav__toggle {
     display: none;
     cursor: pointer;
     background-color: var(--background-white);
     z-index: 2;
 }
 
-.bar {
+.bar{
     width: 25px;
     height: 3px;
     background-color: #333;
@@ -67,19 +72,19 @@
 
 @media screen and (max-width: 1100px) {
 
-    .navbar{
+    .main-nav{
         flex-direction: column;
         height: 33px;
     }
 
-    .navbar-content {
+    .main-nav__content {
         flex-direction: column;
         align-items: flex-start;
         height: auto;
         transform: translateY(-700px);
     }
 
-    .navbar-toggle {
+    .main-nav__toggle {
         display: block;
     }
 
@@ -88,7 +93,7 @@
         transition: transform 0.5s ease-in-out;
     }
 
-    .active .navbar-content{
+    .active .main-nav__content{
         flex-direction: column;
         align-items: flex-start;
         height: auto;
@@ -100,17 +105,23 @@
         margin: 0;
     }
 
-    .navbar-navigation {
+    .main-nav__list {
         display: flex;
         flex-direction: column;
         padding-top: var(--spacing-sml);
         padding-bottom: var(--spacing-m);
     }
 
-    .navbar-actions {
+    .main-nav__actions {
         display: flex;
         flex-direction: column;
         padding-bottom: var(--spacing-m);
     }
 
+}
+
+@media screen and (max-width: 670px){
+    .main-nav{
+        padding-left: var(--spacing-sml);
+    }
 }
