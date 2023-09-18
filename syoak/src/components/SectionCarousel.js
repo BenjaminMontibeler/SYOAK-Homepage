@@ -56,14 +56,14 @@ function SectionCarousel() {
   }
 
   return (
-    <div className='section-carousel'>
+    <div className='carousel'>
 
 
-      <div className='section-carousel__container' style={{ transform: `translate(-${activeIndex * 100}%)` }}>
+      <div className='carousel__container' style={{ transform: `translate(-${activeIndex * 100}%)` }}>
         {items.map((item) => {
-          return <div className='section-carousel__card'>
+          return <div className='carousel__card'>
 
-            <div className='section-carousel__button-container'>
+            <div className='card__button-container'>
               <button className='arrow-button' onClick={() => {
                 updateIndex(activeIndex - 1)
               }}><ArrowLeft /></button>
@@ -81,9 +81,9 @@ function SectionCarousel() {
 
             </div>
 
-            <div className='section-carousel__card__figure'>
+            <div className='card__figure'>
 
-              <div className='section-carousel__card__body'>
+              <div className='card__body'>
 
                 <h2>{item.title}</h2>
                 <h3>{item.header}</h3>
@@ -91,7 +91,7 @@ function SectionCarousel() {
 
               </div>
 
-              <item.image className='section-carousel__card__image' />
+              <item.image className='card__image' />
 
             </div>
 

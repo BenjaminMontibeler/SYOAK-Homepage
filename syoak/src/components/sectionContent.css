@@ -1,4 +1,4 @@
-.section-content {
+.section {
     display: flex;
     flex-direction: column;
     margin-top: var(--spacing-l);
@@ -6,7 +6,7 @@
     margin-bottom: var(--spacing-l);
 }
 
-.section-content__header {
+.section__header {
     display: flex;
     flex-direction: column;
     gap: var(--gap-l);
@@ -14,12 +14,12 @@
     width: 100%;
 }
 
-.section-content__header p{
+.section__header p {
     font-size: var(--size-sml);
     line-height: var(--line-height-sml);
 }
 
-.section-content__card {
+.section__card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,11 +29,46 @@
     margin-top: var(--spacing-l);
 }
 
-.section-content .card__image-description--inactive{
-    display: none;
+.section__card:nth-child(3) {
+    flex-direction: row-reverse;
 }
 
-.section-content .card__image-description--active{
+.card__media--first .button-round:nth-child(2){
+    position: absolute;
+    top: 0%;
+    left: 25%;
+}
+
+.card__media--first .button-round:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 90%;
+}
+
+.card__media--second .button-round:nth-child(2){
+    position: absolute;
+    top: 25%;
+}
+
+.card__media--second .button-round:nth-child(3){
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.card__media--third .button-round:nth-child(2){
+    position: absolute;
+    top: 20%;
+    left: 90%;
+}
+
+.card__media--third .button-round:nth-child(3){
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.section .card__tooltip {
     display: flex;
     flex-direction: row;
     max-width: 250px;
@@ -48,45 +83,46 @@
     margin-top: 85px;
 }
 
-.section-content .card__image-description--active p{
+.section .card__tooltip p {
     max-width: 200px;
     width: 100%;
 }
 
-@media screen and (max-width: 1250px){
-    .section-content__card{
+@media screen and (max-width: 1250px) {
+    .section__card,
+     .section__card:nth-child(3){
         flex-direction: column;
-        gap: var( --gap-m);
+        gap: var(--gap-m);
     }
 }
 
-@media screen and (max-width: 730px){
-    .section-content__card .section-content__card__image-container .card__image{
+@media screen and (max-width: 730px) {
+    .section__card .card__media .card__image {
         display: none;
     }
 
-    .button-circle-fill{
+    .button-circle-fill {
         display: none;
     }
 
-    .section-content .card__image-description--active{
+    .section .card__tooltip {
         display: none;
     }
 
-    .section-content__card{
+    .section__card {
         gap: 0;
     }
 
-    .section-content{
+    .section {
         padding-left: var(--spacing-sml);
     }
 
-    .section-content__card{
+    .section__card {
         align-items: start;
     }
 }
 
-.section-content__card .section-content__card__header {
+.section__card .card__header {
     display: flex;
     flex-direction: column;
     gap: var(--gap-msml);
@@ -94,39 +130,41 @@
     width: 100%;
 }
 
-.section-content__card .section-content__card__image-container {
+.section__card .card__media {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.section-content__card .section-content__card__image-container .card__image {
+.section__card .card__media .card__image {
     max-width: 300px;
     width: 100%;
     height: auto;
 }
 
-@media screen and (max-width: 980px){
-    .section-content__header p{
+@media screen and (max-width: 980px) {
+    .section__header p {
         font-size: var(--size-xsml);
         line-height: var(--line-height-xsml);
     }
 }
 
-@media screen and (max-width: 825px){
-    .section-content{
+@media screen and (max-width: 825px) {
+    .section {
         margin-bottom: var(--spacing-m);
         margin-top: var(--spacing-m);
     }
 
-    .section-content__card{
+    .section__card,
+    .section__card:nth-child(3) {
         margin-top: var(--spacing-m);
     }
 
-    .section-content__header {
+    .section__header {
         gap: var(--gap-m);
     }
 
-    .section-content__header p{
+    .section__header p {
         font-size: var(--size-xxsml);
         line-height: var(--line-height-xxsml);
     }

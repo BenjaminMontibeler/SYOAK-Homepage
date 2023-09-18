@@ -1,14 +1,13 @@
 import React from 'react';
 import { ReactComponent as Map } from './images/map.svg';
-import './buttonPositions.css';
 import './sectionContact.css';
 import '../general/typography.css';
 
 function SectionContact() {
   return (
-    <div className='section-contact'>
+    <div className='contact'>
       <h2>Get in Touch With Us</h2>
-      <div className='section-contact__form-container'>
+      <div className='contact__form-container'>
         <form>
             <div className='input-group'>
                 <label for='name' className='input-group__label'>Name</label>
@@ -38,8 +37,8 @@ function SectionContact() {
         </form>
 
 
-        <div className='section-contact__image-container'>
-            <Map className='section-contact__image'/>
+        <div className='contact__image-container'>
+            <Map className='contact__image'/>
         </div>
         
       </div>

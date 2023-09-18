@@ -1,4 +1,4 @@
-.section-contact{
+.contact{
     display: flex;
     flex-direction: column;
     margin-top: var(--spacing-l);
@@ -8,19 +8,19 @@
     border-bottom: var(--light-border);
 }
 
-.section-contact h2{
+.contact h2{
     max-width: 400px;
     width: 100%;
 }
 
-.section-contact .section-contact__form-container{
+.contact__form-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
 }
 
-.section-contact form{
+.contact form{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -29,28 +29,28 @@
     width: 100%;
 }
 
-.section-contact input{
+.contact input{
     border: none;
     border-bottom: var(--border-input);
     background-color: transparent;
     height: 36px;
 }
 
-.section-contact input:focus-visible{
+.contact input:focus-visible{
     outline: none !important;
 }
 
-.section-contact textarea{
+.contact textarea{
     border: none;
     background-color: transparent;
     height: 150px;
 }
 
-.section-contact textarea:focus{
+.contact textarea:focus{
     outline: none;
 }
 
-.section-contact .section-contact__image{
+.contact__image{
     max-width: 542px;
     max-height: 466px;
     width: 100%;
@@ -58,23 +58,23 @@
 }
 
 @media screen and (max-width: 1290px){
-    .section-contact .section-contact__form-container{
+    .contact__form-container{
         gap: var(--gap-msml);
     }
 }
 
 @media screen and (max-width: 1275px){
-    .section-contact .section-contact__form-container{
+    .contact__form-container{
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 725px){
-    .section-contact .section-contact__image{
+    .contact__image{
         display: none;
     }
 
-    .section-contact{
+    .contact{
         margin-top: var(--spacing-m);
         padding-bottom: var(--spacing-m);
         padding-left: var(--spacing-sml);
@@ -91,21 +91,21 @@
     }
 }
 
-.section-contact .input-group{
+.contact .input-group{
     display: flex;
     flex-direction: column;
     gap: var(--gap-sml);
     margin-bottom: var(--spacing-xsml);
 }
 
-.section-contact .checkbox{
+.contact .checkbox{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: var(--gap-sml);
 }
 
-.section-contact .section-contact__image-container{
+.contact__image-container{
     display: flex;
     width: auto;
 }

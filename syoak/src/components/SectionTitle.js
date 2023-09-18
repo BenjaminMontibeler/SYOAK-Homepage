@@ -33,7 +33,7 @@ function SectionTitle() {
                 to deliver places that respond</p>
             <button className='button-font button-fill'><Arrow />Learn more</button>
 
-            <div className='section-header__timeline-container'>
+            <div className='timeline-container'>
 
                 <div className='active-button-container'>
                     <div className={`button-round-outline ${button1 ? 'button-circle-outline-active' : 'button-circle-outline'}`}>

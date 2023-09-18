@@ -8,9 +8,9 @@ import '../general/typography.css';
 
 function SectionInformation() {
     return (
-        <div className='section-information'>
+        <div className='information'>
 
-            <div className='section-information__header'>
+            <div className='information__header'>
                 <h2>Our Achievements</h2>
                 <p>SYOAK industry consists of companies that own and operate extensive networks of pipeline assets to connect producers of oil,
                     natural gas and natural gas liquids from the prolific North American resources to key markets. We also distribute natural gas to
@@ -18,35 +18,35 @@ function SectionInformation() {
                 </p>
             </div>
 
-            <div className='section-information__cards-container'>
+            <div className='information__cards-container'>
 
-                <div className='section-information__card'>
-                    <Icon1 className='section-information__card__icon' />
-                    <div className='section-information__card__body'>
+                <div className='information__card'>
+                    <Icon1 className='card__icon' />
+                    <div className='card__body'>
                         <h3>2562</h3>
                         <p>Square Meters Built</p>
                     </div>
                 </div>
 
-                <div className='section-information__card'>
-                    <Icon2 className='section-information__card__icon' />
-                    <div className='section-information__card__body'>
+                <div className='information__card'>
+                    <Icon2 className='card__icon' />
+                    <div className='card__body'>
                         <h3>184</h3>
                         <p>Completed Projects</p>
                     </div>
                 </div>
 
-                <div className='section-information__card'>
-                    <Icon3 className='section-information__card__icon' />
-                    <div className='section-information__card__body'>
+                <div className='information__card'>
+                    <Icon3 className='card__icon' />
+                    <div className='card__body'>
                         <h3>351</h3>
                         <p>Work With Us</p>
                     </div>
                 </div>
 
-                <div className='section-information__card'>
-                    <Icon4 className='section-information__card__icon' />
-                    <div className='section-information__card__body'>
+                <div className='information__card'>
+                    <Icon4 className='card__icon' />
+                    <div className='card__body'>
                         <h3>65</h3>
                         <p>Ideas Realized</p>
                     </div>

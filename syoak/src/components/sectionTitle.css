@@ -13,7 +13,7 @@
     line-height: var(--line-height-m);
 }
 
-.section-header__timeline-container {
+.timeline-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 720px){
-    .section-header__timeline-container{
+    .timeline-container{
         display: none;
     }
 }
